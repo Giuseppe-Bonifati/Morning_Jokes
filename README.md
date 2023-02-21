@@ -53,9 +53,7 @@ smtp-mail.outlook.com
 smtp.mail.yahoo.com    
 
 ```
-
-then it is important to follow this example with gmail steps by step to configure your email address
-
+Then it is important to follow this example with gmail steps by step to configure your email address
 
 
 1. On the top right of the screen click on the icon
