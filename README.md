@@ -1,10 +1,10 @@
-#MORNING_JOKES
+# MORNING_JOKES
 
 The program will send an email with a random Joke to the user, every morning at 8:00 AM.
 
 
 
-##Installation
+## Installation
 
 In order to run the program please follow the instructions:
 
@@ -28,13 +28,13 @@ main.py allows us to ask the user to enter the dates and save them in the databa
 
 joke.py will send an email with a random Joke to the user using """import smtplib""" and this api:
 
-#######https://official-joke-api.appspot.com/random_joke
+###### https://official-joke-api.appspot.com/random_joke
 
 before to lunch the program we need to create an email ( the sender )
 
 https://docs.python.org/3/library/smtplib.html#smtplib.SMTP.sendmail
 
-"""with smtplib.SMTP("smtp.gmail.com",587, timeout=120) as connection:
+""" with smtplib.SMTP("smtp.gmail.com",587, timeout=120) as connection:
         connection.starttls()
         connection.login(user=test_email, password=test_password)
 
@@ -85,6 +85,4 @@ image.png
 
 
 
-License
-Include information about the license that your project is released under. This might be a link to a separate LICENSE file, or a short description of the license terms.
 
