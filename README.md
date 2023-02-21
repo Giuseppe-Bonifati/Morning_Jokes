@@ -22,11 +22,11 @@ def db_connection():
 
 then we need to create 2 different file 
 
-_joke.py and main.py_
+**joke.py and main.py**
 
-main.py allows us to ask the user to enter the dates and save them in the database.
+**main.py** allows us to ask the user to enter the dates and save them in the database.
 
-joke.py will send an email with a random Joke to the user using """import smtplib""" and this api:
+**joke.py** will send an email with a random Joke to the user using """import smtplib""" and this api:
 
 https://official-joke-api.appspot.com/random_joke
 
