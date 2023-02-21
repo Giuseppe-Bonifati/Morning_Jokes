@@ -22,7 +22,7 @@ def db_connection():
 
 then we need to create 2 different file 
 
-joke.py and main.py 
+_joke.py and main.py_
 
 main.py allows us to ask the user to enter the dates and save them in the database.
 
@@ -34,11 +34,12 @@ before to lunch the program we need to create an email ( the sender )
 
 https://docs.python.org/3/library/smtplib.html#smtplib.SMTP.sendmail
 
-""" with smtplib.SMTP("smtp.gmail.com",587, timeout=120) as connection:
+``` with smtplib.SMTP("smtp.gmail.com",587, timeout=120) as connection:
         connection.starttls()
         connection.login(user=test_email, password=test_password)
 
 SMTP host for different email addresses:
+
 
 smtp.aol.com
 smtp.mail.att.net
@@ -46,7 +47,7 @@ smtp.comcast.net
 smtp.mail.me.com
 smtp.gmail.com
 smtp-mail.outlook.com
-smtp.mail.yahoo.com    """
+smtp.mail.yahoo.com    ```
 
 then it is important to follow this example with gmail steps by step to configure your email address
 
