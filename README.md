@@ -20,17 +20,19 @@ def db_connection():
 
 ```
 
-then we need to create 2 different file 
+#### Files
+
+Then we need to create 2 different file 
 
 **joke.py and main.py**
 
-**main.py** allows us to ask the user to enter the dates and save them in the database.
+**main.py** Allows us to ask the user to enter the dates and save them in the database.
 
-**joke.py** will send an email with a random Joke to the user using """import smtplib""" and this api:
+**joke.py** Will send an email with a random Joke to the user using """import smtplib""" and this api:
 
 https://official-joke-api.appspot.com/random_joke
 
-before to lunch the program we need to create an email ( the sender )
+Before to lunch the program we need to create an email ( the sender )
 
 https://docs.python.org/3/library/smtplib.html#smtplib.SMTP.sendmail
 
@@ -53,6 +55,8 @@ smtp.mail.yahoo.com
 ```
 
 then it is important to follow this example with gmail steps by step to configure your email address
+
+
 
 1. On the top right of the screen click on the icon
 image.png
