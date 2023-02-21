@@ -86,7 +86,8 @@ Then it is important to follow this example with gmail steps by step to configur
 
 
 
-At the end to run the program everyday at 8:00 we run the program in the could  for ex in python everywhere or something similar . Add the file in the could , start a new bash console and then schedule the task to be executed at the time that you want in this case at 8:00 AM
+At the end to run the program everyday at 8:00 we run the program in the _could_ for ex in **python everywhere** or something similar . 
+Add the file in the could , start a new bash console and then schedule the task to be executed at the time that you want in this case at 8:00 AM
 
 
 
@@ -94,7 +95,7 @@ At the end to run the program everyday at 8:00 we run the program in the could  
 
 The Graphical User Interface  ( GUI ) will look like this:
 
-image.png
+
 
 
 
