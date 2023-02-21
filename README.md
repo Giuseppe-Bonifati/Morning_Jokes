@@ -28,7 +28,7 @@ main.py allows us to ask the user to enter the dates and save them in the databa
 
 joke.py will send an email with a random Joke to the user using """import smtplib""" and this api:
 
-_ https://official-joke-api.appspot.com/random_joke
+https://official-joke-api.appspot.com/random_joke
 
 before to lunch the program we need to create an email ( the sender )
 
