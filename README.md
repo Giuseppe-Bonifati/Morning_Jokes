@@ -20,11 +20,11 @@ def db_connection():
 
 ```
 
-## Files
+### Files
 
 Then we need to create 2 different file 
 
-**joke.py and main.py**
+**_joke.py and main.py_**
 
 **main.py** Allows us to ask the user to enter the dates and save them in the database.
 
