@@ -10,7 +10,7 @@ In order to run the program please follow the instructions:
 
 it is important to create a database connection in the file hidden 
 
-'''
+```
 def db_connection():
     return {"database":"",
                         "host":"",
@@ -18,7 +18,7 @@ def db_connection():
                         "password":"",
                         "port":""}
 
-'''
+```
 
 then we need to create 2 different file 
 
@@ -28,7 +28,7 @@ main.py allows us to ask the user to enter the dates and save them in the databa
 
 joke.py will send an email with a random Joke to the user using """import smtplib""" and this api:
 
-###### https://official-joke-api.appspot.com/random_joke
+_ https://official-joke-api.appspot.com/random_joke
 
 before to lunch the program we need to create an email ( the sender )
 
