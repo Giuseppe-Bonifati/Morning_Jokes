@@ -48,7 +48,9 @@ smtp.comcast.net
 smtp.mail.me.com
 smtp.gmail.com
 smtp-mail.outlook.com
-smtp.mail.yahoo.com    ```
+smtp.mail.yahoo.com    
+
+```
 
 then it is important to follow this example with gmail steps by step to configure your email address
 
