@@ -96,6 +96,7 @@ Add the file in the could , start a new bash console and then schedule the task 
 The Graphical User Interface  ( GUI ) will look like this:
 
 
+<img width="373" alt="image" src="https://user-images.githubusercontent.com/110894389/220474249-997b0c1e-7dd1-407b-95b2-4c518786213f.png">
 
 
 
