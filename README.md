@@ -81,7 +81,7 @@ Then it is important to follow this example with gmail steps by step to configur
 **5.** _After you add the password click on Select app and chose "Other" , type a name and click on Generate_
 
 
-**6.** _Copy the generated password and paste it into fille joke.py in  test_password = ""_
+**6.** _Copy the generated password and paste it into file joke.py in  test_password = ""_
 
 
 
