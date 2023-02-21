@@ -34,7 +34,8 @@ before to lunch the program we need to create an email ( the sender )
 
 https://docs.python.org/3/library/smtplib.html#smtplib.SMTP.sendmail
 
-``` with smtplib.SMTP("smtp.gmail.com",587, timeout=120) as connection:
+``` 
+with smtplib.SMTP("smtp.gmail.com",587, timeout=120) as connection:
         connection.starttls()
         connection.login(user=test_email, password=test_password)
 
