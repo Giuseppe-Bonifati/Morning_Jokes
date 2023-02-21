@@ -60,8 +60,10 @@ Then it is important to follow this example with gmail steps by step to configur
 <img width="287" alt="image" src="https://user-images.githubusercontent.com/110894389/220471922-99ea43d0-2599-4683-bd78-dd34bdd764c8.png">
 
 
+
 2. Click on the Security/Safety
-image.png
+<img width="324" alt="image" src="https://user-images.githubusercontent.com/110894389/220472134-20f8508d-15d4-443f-a765-c7183b8a1252.png">
+
 
 3. Enable two step verification and follow the instructions from gmail
 image.png
