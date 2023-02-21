@@ -56,17 +56,22 @@ smtp.mail.yahoo.com
 Then it is important to follow this example with gmail steps by step to configure your email address
 
 
-1. On the top right of the screen click on the icon and then Manage your Google Account
+**1.** On the top right of the screen click on the icon and then Manage your Google Account
+
 <img width="287" alt="image" src="https://user-images.githubusercontent.com/110894389/220471922-99ea43d0-2599-4683-bd78-dd34bdd764c8.png">
 
 
 
-2. Click on the Security/Safety
+**2.** Click on the Security/Safety
+
 <img width="324" alt="image" src="https://user-images.githubusercontent.com/110894389/220472134-20f8508d-15d4-443f-a765-c7183b8a1252.png">
 
 
-3. Enable two step verification and follow the instructions from gmail
-image.png
+**3.** Enable two step verification and follow the instructions from gmail
+
+<img width="340" alt="image" src="https://user-images.githubusercontent.com/110894389/220472533-b788ed6e-f74d-49a3-9a31-42922e03e765.png">
+
+
 
 4. Then go back on Security/Safety and click on Add password
 image.png
