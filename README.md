@@ -56,10 +56,9 @@ smtp.mail.yahoo.com
 Then it is important to follow this example with gmail steps by step to configure your email address
 
 
-1. On the top right of the screen click on the icon
-image.png
+1. On the top right of the screen click on the icon and then Manage your Google Account
+<img width="287" alt="image" src="https://user-images.githubusercontent.com/110894389/220471922-99ea43d0-2599-4683-bd78-dd34bdd764c8.png">
 
-and then Manage your Google Account
 
 2. Click on the Security/Safety
 image.png
