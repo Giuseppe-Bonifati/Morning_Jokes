@@ -8,7 +8,7 @@ import psycopg2  #type: ignore
 BLUE = "#03b1d6"
 FONT_NAME = "Courier"
 
-
+# connect to the db
 db_connection = db_connection()
 
 conn = psycopg2.connect( database=  db_connection["database"],
@@ -22,7 +22,7 @@ cursor = conn.cursor()
 
 
 
-
+# function to check validate the email
 def check_email(email):
     '''Check the email address and return the email address if everything is correct otherwise return an error'''
     try:
@@ -38,7 +38,7 @@ def check_email(email):
         
 
 
-
+# check the name
 def check_name(name):
     '''check and return the user name with min 2 char otherwise return an error'''
     try:
@@ -56,12 +56,12 @@ def check_name(name):
     
 
 
-
+# 
 def database(name,email):
         '''This function creates a table and insert the user information into the database if something went wrong will give an error'''
         try:
             cursor.execute('CREATE EXTENSION  IF NOT EXISTS "uuid-ossp";')
-            cursor.execute('CREATE TABLE IF NOT EXISTS users (user_id uuid default uuid_generate_v4(), user_name text not null ,email text not null , registration_date TIMESTAMPTZ default now());')
+            cursor.execute('CREATE TABLE IF NOT EXISTS users (user_id uuid default uuid_generate_v4() PRIMARY KEY, user_name text not null ,email text not null , registration_date TIMESTAMPTZ default now());')
             cursor.execute('INSERT INTO users (user_name,email) VALUES (%s, %s);',(name,email),)
             conn.commit()
         except Exception as e:
