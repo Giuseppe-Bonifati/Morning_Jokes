@@ -22,7 +22,7 @@ cursor = conn.cursor()
 
 
 
-# function to check validate the email
+# function to validate the emails
 def check_email(email):
     '''Check the email address and return the email address if everything is correct otherwise return an error'''
     try:
@@ -56,7 +56,7 @@ def check_name(name):
     
 
 
-# 
+# db Create a table and add information into the table 
 def database(name,email):
         '''This function creates a table and insert the user information into the database if something went wrong will give an error'''
         try:
@@ -74,7 +74,7 @@ def database(name,email):
 
 
 
-
+# check function will be called by the confirmation button from tkinter , once user click on confirmation , check function will call all the other function to check the name the email and save info into db
 def check():
     ''' The function collect the user input and use check_name() and check_email()  and if everything is fine after the user confirmation call the function database() '''
     name_user = name_input.get()
@@ -96,8 +96,7 @@ def check():
 
 
 
-
-   
+# delete function will be called by tkinter delete button and will delete user info from db
 def delete():
     '''Allows the user to delete the user information from the database'''
 
