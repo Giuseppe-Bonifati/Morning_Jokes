@@ -98,7 +98,7 @@ Add the file in the could , start a new bash console and then schedule the task 
 
 
 
-<h2 align="center">Usage ▪️▫️ </h2> 
+<h2 align="center">GUI ▪️▫️ </h2> 
 
 <p align="center">The Graphical User Interface  ( GUI ) will look like this:</p>
 
