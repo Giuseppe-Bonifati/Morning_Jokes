@@ -11,7 +11,7 @@ The program will send an email with a random Joke to the user, every morning at 
 
 ⭕ In order to run the program please follow the instructions 🏁:
 
-it is important to create a database connection in the file hidden 
+it is important to create a database connection in the file hidden with all info about the db , we will need this info in the main.py and joke.py
 
 ```
 def db_connection():
