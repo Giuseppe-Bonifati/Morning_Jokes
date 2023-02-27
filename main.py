@@ -175,3 +175,4 @@ window.mainloop()
 
 
 cursor.close()
+conn.close()
