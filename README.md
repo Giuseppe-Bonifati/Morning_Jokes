@@ -31,7 +31,7 @@ Then we need to create 2 different file
 
 **main.py** Allows us to ask the user to enter the dates and save them in the database.
 
-**joke.py** Will send an email with a random Joke to the user using """import smtplib""" and this api:
+**joke.py** Will send an email with a random Joke to the user using smtplib and an api:
 
 https://official-joke-api.appspot.com/random_joke
 
