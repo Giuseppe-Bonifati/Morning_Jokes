@@ -51,5 +51,5 @@ with smtplib.SMTP("smtp.gmail.com",587, timeout=120) as connection:
 
 
 
-
+cursor.close()
 conn.close()
