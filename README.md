@@ -8,13 +8,14 @@ The program will send an email with a random Joke to the user, every morning at 
 
 
 
-## Installation 🧊 
+## Installation :package: 
 
 <a href=https://www.python.org/ ><img src="https://img.shields.io/badge/-Python-white?logo=python"></a>  <a href=https://www.postgresql.org/><img src="https://img.shields.io/badge/-PostgreSql-lightgrey?logo=postgresql"></a> <a href =https://www.google.com/intl/com/gmail/about/ ><img src =  "https://img.shields.io/badge/-Gmail-orange?logo=gmail" > </a>    <a href="https://www.pythonanywhere.com/"><img src="https://img.shields.io/badge/-Python%20anywhere-0050fb"></a>  <a href="https://code.visualstudio.com/"> <img src="https://img.shields.io/badge/-Visual%20Studio%20Code-0098ff?logo=visualstudiocode" > </a>
 
 In order to run the program please follow the instructions 🏁:
 
 ### Files
+
 We need to create 3 different files 
 
 :black_small_square: **joke.py**      (Allows us to ask to the users to enter the data and save it in the database)
@@ -39,7 +40,7 @@ def db_connection():
 
 **Link to the api** https://official-joke-api.appspot.com/random_joke
 
-### Email
+### Email :envelope:
 
 Before to lunch the program we need to create an email ( the sender )
 
