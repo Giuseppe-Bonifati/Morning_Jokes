@@ -10,7 +10,7 @@ The program will send an email with a random Joke to the user, every morning at 
 
 ## Installation 🧊 
 
-<a href=https://www.python.org/ ><img src="https://img.shields.io/badge/-Python-white?logo=python"></a>  <a href=https://www.postgresql.org/><img src="https://img.shields.io/badge/-PostgreSql-lightgrey?logo=postgresql"></a> <a href =https://www.google.com/intl/com/gmail/about/ ><img src =  "https://img.shields.io/badge/-Gmail-orange?logo=gmail" > </a>    <a href="https://www.pythonanywhere.com/"><img src="https://img.shields.io/badge/-Python%20anywhere-0050fb"></a>  <a href="https://code.visualstudio.com/"> <img src="https://img.shields.io/badge/-Visual%20Studio%20Code-2eabf8?logo=visualstudiocode" > </a>
+<a href=https://www.python.org/ ><img src="https://img.shields.io/badge/-Python-white?logo=python"></a>  <a href=https://www.postgresql.org/><img src="https://img.shields.io/badge/-PostgreSql-lightgrey?logo=postgresql"></a> <a href =https://www.google.com/intl/com/gmail/about/ ><img src =  "https://img.shields.io/badge/-Gmail-orange?logo=gmail" > </a>    <a href="https://www.pythonanywhere.com/"><img src="https://img.shields.io/badge/-Python%20anywhere-0050fb"></a>  <a href="https://code.visualstudio.com/"> <img src="https://img.shields.io/badge/-Visual%20Studio%20Code-0098ff?logo=visualstudiocode" > </a>
 
 In order to run the program please follow the instructions 🏁:
 
