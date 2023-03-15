@@ -10,7 +10,7 @@ The program will send an email with a random Joke to the user, every morning at 
 
 ## Installation 🧊 
 
-<img src="https://img.shields.io/badge/-Python-white?logo=python">
+<a href=https://www.python.org/ ><img src="https://img.shields.io/badge/-Python-white?logo=python"></a>  <a href=https://www.postgresql.org/><img src="https://img.shields.io/badge/-PostgreSql-lightgrey?logo=postgresql"></a> <a href =https://www.google.com/intl/com/gmail/about/ ><img src =  "https://img.shields.io/badge/-Gmail-orange?logo=gmail" > </a>    <a href="https://www.pythonanywhere.com/"><img src="https://img.shields.io/badge/-Python%20anywhere-0050fb"></a>  <a href="https://code.visualstudio.com/"> <img src="https://img.shields.io/badge/-Visual%20Studio%20Code-2eabf8?logo=visualstudiocode" > </a>
 
 In order to run the program please follow the instructions 🏁:
 
@@ -51,8 +51,8 @@ with smtplib.SMTP("smtp.gmail.com",587, timeout=120) as connection:
         connection.starttls()
         connection.login(user=test_email, password=test_password)
 
+'''
 SMTP host for different email addresses:
-
 
 smtp.aol.com
 smtp.mail.att.net
@@ -60,7 +60,9 @@ smtp.comcast.net
 smtp.mail.me.com
 smtp.gmail.com
 smtp-mail.outlook.com
-smtp.mail.yahoo.com    
+smtp.mail.yahoo.com 
+
+'''    
 
 ```
 Then it is important to follow this example with gmail, steps by step to configure your email address
@@ -99,11 +101,11 @@ Then it is important to follow this example with gmail, steps by step to configu
 
 
 
-### Python everywhere
+### Python anywhere
 
-To run the program everyday at 8:00, we need to run the program in the _could_ , in this case in **python everywhere** .
+To run the program everyday at 8:00, we need to run the program in the _could_ , in this case in **python anywhere** .
 
-So in python everywhere add the file in the could , then start a new bash console and then schedule the task to be executed at the time that you want in this case at 8:00 AM
+So in python anywhere add the file in the could , then start a new bash console and then schedule the task to be executed at the time that you want in this case at 8:00 AM
 
 
 
