@@ -2,7 +2,7 @@
 
 <a href="https://www.linkedin.com/in/giuseppe-bonifati-738640261/"><img src="https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&labelColor=blue"></a> 
 
-### Description
+#### Description
 
 The program will send an email with a random Joke to the user, every morning at 8:00 AM.
 
@@ -14,7 +14,7 @@ The program will send an email with a random Joke to the user, every morning at 
 
 In order to run the program please follow the instructions 🏁:
 
-### Files
+#### Files
 
 We need to create 3 different files 
 
@@ -36,11 +36,11 @@ def db_connection():
                         "port":""}
 
 ```
-### Api
+#### Api
 
-**Link to the api** https://official-joke-api.appspot.com/random_joke
+https://official-joke-api.appspot.com/random_joke
 
-### Email :envelope:
+#### Email :envelope:
 
 Before to lunch the program we need to create an email ( the sender )
 
@@ -102,7 +102,7 @@ Then it is important to follow this example with gmail, steps by step to configu
 
 
 
-### Python anywhere
+#### Python anywhere
 
 To run the program everyday at 8:00, we need to run the program in the _could_ , in this case in **python anywhere** .
 
